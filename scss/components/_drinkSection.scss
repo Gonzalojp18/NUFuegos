@@ -1,0 +1,222 @@
+.drink-experience{
+        background-color:rgba(118, 87, 52,);
+    width: 100%;
+    height: 80%;
+    border-radius: 0 0 0 0;
+    display: flex;
+    overflow: hidden;
+    .drink-title{
+        padding: 5% 0 0 7%;
+        font-family: $main-fontSize;
+        min-width: 50%;
+        height: 30vh;
+        color: #eee5deb3;
+            h4{
+                font-size: 4rem;
+                letter-spacing: .5rem;
+                font-weight: 600;
+                line-height: 1.2;
+            }
+            p{
+                padding: .2rem 0 0 1rem;
+                letter-spacing: .5rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+                width: 80%;
+            }
+    }
+    .image-drink{
+        height: 120vh;
+        .carrousel-drinking{
+            display: flex;
+            position: relative;
+            top: 30%;
+            right: 65%;
+            gap: 1.5rem;
+            .card-drink{
+                border: none;
+                background-color: transparent;
+                border-radius: 1%;
+                font-family: $main-fontSize;
+                .card-body{
+                    color: #eee5deb3;
+                    h5{
+                        font-size: 2rem;
+                        font-family: $main-fontSize;
+                        letter-spacing: .2rem;
+                        line-height: 1.5rem;
+                        margin-bottom: 1rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                        font-family: $main-fontSize;
+                        letter-spacing: .2rem;
+                        line-height: 1rem;
+                    }
+                }
+                img{
+                        height: 20rem;
+                        object-fit: cover;
+                        box-sizing: border-box;
+                        border-radius: 4%;
+                }
+            }
+        }
+    }
+
+                /* Media Query para dispositivos móviles */
+                @media only screen and (min-width: 320px) and (max-width: 768px) {
+                    max-height: 50%;
+                    .drink-title{
+                        padding: 3rem 0 0 3rem;
+                        font-family: $main-fontSize;
+                        min-width: 100%;
+                        height: 30vh;
+                        color: #eee5deb3;
+                            h4{
+                                font-size: 4rem;
+                                letter-spacing: .5rem;
+                                font-weight: 600;
+                                line-height: 1.2;
+                            }
+                            p{
+                                padding: .2rem 0 0 1rem;
+                                letter-spacing: .5rem;
+                                font-size: 1.2rem;
+                                font-weight: 500;
+                                width: 80%;
+                            }
+                    }
+                    .image-drink{
+                        height: 120vh;
+                        .carrousel-drinking{
+                            display: flex;
+                            position: relative;
+                            top: 35%;
+                            right: 97%;
+                            gap: 0;
+                            .card-drink{
+                                border: none;
+                                gap: 0;
+                                .card-body{
+                                    margin: auto;
+                                    color: #eee5deb3;
+                                    h5{
+                                        font-size: 2rem;
+                                    }
+                                    p{
+                                        font-size: 1rem;
+                                    }
+                                }
+                                img{
+                                    width: 15rem !important;
+                                    height: 15rem;
+                                    object-fit: cover;
+                                    box-sizing: border-box;
+                                    border-radius: 1% 1% 0 0s;
+                            }
+                            }
+                        }
+                    }
+                }
+                /* Media Query para tablets */
+                @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                    .image-drink{
+                        .carrousel-drinking{
+                            display: flex;
+                            position: relative;
+                            top: 30%;
+                            right: 75%;
+                            gap: 0;
+                            .card-drink{
+                                border: none;
+                                gap: 0;
+                                .card-body{
+                                    margin: auto;
+                                    color: #eee5deb3;
+                                    h5{
+                                        font-size: 2rem;
+                                    }
+                                    p{
+                                        font-size: 1rem;
+                                    }
+                                }
+                                img{
+                                    width: 15rem !important;
+                                    height: 15rem;
+                                    object-fit: cover;
+                                    box-sizing: border-box;
+                                    border-radius: 1% 1% 0 0s;
+                            }
+                            }
+                        }
+                    }
+                    .drink-title{
+                        padding: 4rem 0 0 0;
+                        font-family: $main-fontSize;
+                        min-width: 80%;
+                        height: 30vh;
+                        color: #eee5deb3;
+                            h4{
+                                font-size: 4rem;
+                                letter-spacing: .5rem;
+                                font-weight: 600;
+                                line-height: 1.2;
+                            }
+                            p{
+                                padding: .2rem 0 0 1rem;
+                                letter-spacing: .5rem;
+                                font-size: 1.2rem;
+                                font-weight: 500;
+                                width: 80%;
+                            }
+                    }
+                }
+                /* Media Query para dispositivos */
+                @media only screen and (min-width: 1024px) and (max-width: 1380px) {
+                    .image-drink{
+                        height: 140vh;
+                        .carrousel-drinking{
+                            display: flex;
+                            position: relative;
+                            top: 30%;
+                            right: 75%;
+                            gap: 0;
+                            .card-drink{
+                                border: none;
+                                gap: 0;
+                                .card-body{
+                                    margin: auto;
+                                    color: #eee5deb3;
+                                    h5{
+                                        font-size: 2rem;
+                                    }
+                                    p{
+                                        font-size: 1rem;
+                                    }
+                                }
+                                img{
+                                    width: 15rem !important;
+                                    height: 15rem;
+                                    object-fit: cover;
+                                    box-sizing: border-box;
+                                    border-radius: 1% 1% 0 0s;
+                            }
+                            }
+                        }
+                    }
+                    .drink-title{
+                        padding: 5rem 0 0 2rem;
+                        font-family: $main-fontSize;
+                        min-width: 80%;
+                            h4{
+                                font-size: 4rem;
+                            }
+                            p{
+                                padding: .2rem 0 0 1rem;
+                                font-size: 1.3rem;
+                                width: 75%;
+                            }
+                    }
+                }
+}

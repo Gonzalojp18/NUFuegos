@@ -1,0 +1,28 @@
+// .gallery {
+//     overflow: hidden;
+//     width: 100%;
+//     height: 50vh;
+//     position: relative;
+//     .gallery-wrapper {
+//         display: flex;
+//         position: absolute;
+//         animation: scrollGallery 10s linear infinite;
+//         img {
+//             width: 40%;
+//             height: 40vh;
+//             object-fit:contain;
+//             border: 1px solid #4E5043;
+//         }
+//     }
+// }
+
+
+// @keyframes scrollGallery {
+//     0% {
+//       transform: translateX(0%);
+//     }
+//     100% {
+//       transform: translateX(-100%);
+//     }
+//   }
+  

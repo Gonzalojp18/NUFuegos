@@ -1,0 +1,6 @@
+// Animation on placeSection
+.gallery-img {
+    transform-origin: center center; // El centro de la imagen es el punto de transformación
+    transform: scale(1); // Escala inicial normal
+    transition: transform 0.3s ease-out; // Suave transición de la transformación
+}

@@ -1,0 +1,36 @@
+
+// .background-image {
+//     animation: mover-imagen 5s infinite;
+//     animation-delay: calc(-1s * var(--i));
+//     width: 100px;
+//     height: 100px;
+//     background-repeat: no-repeat;
+//     img {
+//         animation: mover-imagen 5s infinite;
+//         background-size:contain;
+//     }
+// }
+
+// .background-image {
+//     width: 100%;
+//     height: 100vh;
+//     background-size:contain;
+//     background-position: center;
+//     animation: imageSlide 20s infinite;
+//     border-radius: 1%;
+// }
+
+// @keyframes imageSlide {
+//     0%, 100% {
+//         background-image: url('/source/Captura.PNG');
+//     }
+//     25% {
+//         background-image: url('/source/Screenshot\ 2024-04-25\ 211727.png');
+//     }
+//     50% {
+//         background-image: url('/source/Screenshot\ 2024-04-25\ 211813.png');
+//     }
+//     75% {
+//         background-image: url('/source/Screenshot\ 2024-04-25\ 211832.png');
+//     }
+// }
