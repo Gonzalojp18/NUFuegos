@@ -145,7 +145,8 @@
 
             /* Media Query para tablets */
             @media only screen and (min-width: 768px) and (max-width: 1024px)  {}
-            /* Media Query para dispositivos de escritorio en orientación landscape */
+
+            /* Media Query para dispositivos de escritorio*/
             @media only screen and (min-width: 1024px) and (max-width: 1380px) {
                 .section-place{
                     padding: 0 0 0 8%;
